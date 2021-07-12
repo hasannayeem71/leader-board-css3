@@ -157,6 +157,11 @@ nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
+    justify-content: center;
+}
+
+#latest-courses {
+    margin-bottom: 28px;
 }
 
 .course {
