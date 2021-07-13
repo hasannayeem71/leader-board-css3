@@ -34,7 +34,7 @@ hr {
 
 header {
     background-color: #562EFF;
-    width: 1440px;
+    width: 100%;
     height: 94px;
     margin-bottom: 15px;
 }
@@ -200,7 +200,23 @@ nav {
 
 /* Mobile Devices */
 
-@media only screen and (max-width:688px) {
+@media only screen and (min-width:320px) and (max-width:688px) {
+    header {
+        width: 100%;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .navigation {
+        display: flex;
+        align-items: center;
+    }
+    .single-nav {
+        margin: 5px;
+    }
     .container {
         width: 100%;
     }
